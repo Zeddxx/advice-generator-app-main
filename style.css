@@ -280,4 +280,7 @@ margin-bottom: 1.63rem;
         width: 100vw;
         padding: 2.4375rem 1rem;
     }
+    .advice-div{
+      height: 40vh;
+    }
 }
