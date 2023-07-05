@@ -172,10 +172,10 @@ main {
   flex-direction: column;
 }
 
-.advice-div > .main-advice > h1 {
+.main-advice .heading {
   color: var(--neon-green, #52ffa8);
   font-size: 0.875rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.21875rem;
   text-transform: uppercase;
   text-align: center;
@@ -186,8 +186,8 @@ main {
   text-align: center;
   font-size: 1.75rem;
   font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+  font-weight: 700;
+  line-height: 1.6;
   letter-spacing: -0.0175rem;
   margin-bottom: 3rem;
 }
@@ -227,6 +227,13 @@ main {
     display: flex;
     justify-content: center;
   }
+  .main-advice > h1{
+    font-weight: 600;
+  }
+  .main-advice > p{
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 
 @media screen and (width <= 512px) {
@@ -243,12 +250,14 @@ main {
   }
   .main-advice > p{
 text-align: center;
-font-size: 1.5rem;
-font-weight: 800;
+font-size: 1.4rem;
+font-weight: 500;
 letter-spacing: -0.015rem;
+margin-bottom: 1.63rem;
   }
-  .main-advice > h1{
+  .heading{
     font-size: 0.75rem;
+    font-weight: 100;
   }
 }
 
