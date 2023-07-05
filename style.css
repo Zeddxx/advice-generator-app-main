@@ -187,7 +187,7 @@ main {
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: normal;
   letter-spacing: -0.0175rem;
   margin-bottom: 3rem;
 }
